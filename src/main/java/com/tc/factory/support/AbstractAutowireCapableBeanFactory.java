@@ -4,6 +4,7 @@ import cn.hutool.core.bean.BeanUtil;
 import com.tc.BeansException;
 import com.tc.factory.PropertyValue;
 import com.tc.factory.config.BeanDefinition;
+import com.tc.factory.config.BeanReference;
 
 public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFactory {
 
@@ -33,7 +34,10 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
             for (PropertyValue propertyValue : beanDefinition.getPropertyValues().getPropertyValues()) {
                 String name = propertyValue.getName();
                 Object value = propertyValue.getValue();
-
+                if (value instanceof BeanReference) {
+                    BeanReference beanReference = (BeanReference) value;
+                    value = getBean(beanReference.getBeanName());
+                }
                 BeanUtil.setFieldValue(bean, name, value);
             }
         } catch (Exception e) {
