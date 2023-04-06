@@ -1,4 +1,4 @@
-package com.tc.factory;
+package com.tc.beans.factory;
 
 public class PropertyValue {
 

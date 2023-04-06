@@ -1,6 +1,6 @@
-package com.tc.factory.support;
+package com.tc.beans.factory.support;
 
-import com.tc.factory.config.SingletonBeanRegistry;
+import com.tc.beans.factory.config.SingletonBeanRegistry;
 
 import java.util.HashMap;
 import java.util.Map;

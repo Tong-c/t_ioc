@@ -1,6 +1,6 @@
-package com.tc.factory.config;
+package com.tc.beans.factory.config;
 
-import com.tc.factory.PropertyValues;
+import com.tc.beans.factory.PropertyValues;
 
 public class BeanDefinition {
 

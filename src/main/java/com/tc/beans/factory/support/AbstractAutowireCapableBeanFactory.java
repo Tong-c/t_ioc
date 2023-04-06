@@ -1,10 +1,10 @@
-package com.tc.factory.support;
+package com.tc.beans.factory.support;
 
 import cn.hutool.core.bean.BeanUtil;
-import com.tc.BeansException;
-import com.tc.factory.PropertyValue;
-import com.tc.factory.config.BeanDefinition;
-import com.tc.factory.config.BeanReference;
+import com.tc.beans.factory.BeansException;
+import com.tc.beans.factory.PropertyValue;
+import com.tc.beans.factory.config.BeanDefinition;
+import com.tc.beans.factory.config.BeanReference;
 
 public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFactory {
 

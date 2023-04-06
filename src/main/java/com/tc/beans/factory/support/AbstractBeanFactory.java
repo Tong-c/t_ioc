@@ -1,8 +1,8 @@
-package com.tc.factory.support;
+package com.tc.beans.factory.support;
 
-import com.tc.BeansException;
-import com.tc.factory.BeanFactory;
-import com.tc.factory.config.BeanDefinition;
+import com.tc.beans.factory.BeansException;
+import com.tc.beans.factory.BeanFactory;
+import com.tc.beans.factory.config.BeanDefinition;
 
 public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry implements BeanFactory {
 

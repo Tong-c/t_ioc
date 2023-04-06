@@ -1,4 +1,4 @@
-package com.tc.factory.config;
+package com.tc.beans.factory.config;
 
 public class BeanReference {
 

@@ -1,4 +1,4 @@
-package com.tc;
+package com.tc.beans.factory;
 
 public class BeansException extends RuntimeException {
 

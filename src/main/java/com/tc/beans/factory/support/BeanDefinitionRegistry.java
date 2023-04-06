@@ -1,6 +1,6 @@
-package com.tc.factory.support;
+package com.tc.beans.factory.support;
 
-import com.tc.factory.config.BeanDefinition;
+import com.tc.beans.factory.config.BeanDefinition;
 
 public interface BeanDefinitionRegistry {
 

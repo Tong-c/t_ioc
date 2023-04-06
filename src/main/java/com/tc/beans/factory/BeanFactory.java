@@ -1,6 +1,4 @@
-package com.tc.factory;
-
-import com.tc.BeansException;
+package com.tc.beans.factory;
 
 public interface BeanFactory {
 

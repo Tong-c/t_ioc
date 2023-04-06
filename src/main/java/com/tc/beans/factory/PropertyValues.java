@@ -1,4 +1,4 @@
-package com.tc.factory;
+package com.tc.beans.factory;
 
 import java.util.ArrayList;
 import java.util.List;
